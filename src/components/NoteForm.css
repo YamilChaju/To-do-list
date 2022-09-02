@@ -1,0 +1,31 @@
+.noteForm {
+    background-color: #777;
+    margin: 10px 20%;
+    width: 58%;
+    height: 70px;
+    padding: 5px 1%;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.form {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 9fr 1fr;
+    width: 100%;
+    height: 100%;
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+.text {
+    width: 96%;
+    margin: 6px 2%;
+    border: 0;
+    border-bottom: 1px solid darkturquoise;
+    box-sizing: border-box;
+    font-size: 15px;
+    caret-color: darkturquoise;
+    background-color: #777;
+    color: darkturquoise;
+}
